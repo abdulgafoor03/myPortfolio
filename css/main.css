@@ -355,8 +355,8 @@ ul#scene {
   flex-wrap: wrap;
 }
 .cardTech{
-  width:250px;
-  height:250px;
+  width:150px;
+  height:150px;
   background: linear-gradient(to right,rgb(238, 238, 238),rgb(255,255,255));
   border-right:4px solid grey;
   border-bottom: 4px solid grey;
@@ -403,13 +403,13 @@ ul#scene {
 .techTitle,.subtechTitle{
   position: relative;
   font-family: 'Audiowide', cursive;;
-  font-size:xx-large;;
+  font-size:large;;
   text-align: center;
 }
 .subtechTitle{
   margin-top:15px;
   color:orangered;
-  font-size:95px;
+  font-size:45px;
 }
 /* projects */
 .projectSection{
@@ -461,6 +461,7 @@ ul#scene {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  box-sizing: border-box;
 }
 .leftabout h1{
   font-size: 30px;
@@ -689,6 +690,12 @@ footer h1 {
   }
   .menu {
     max-width: 200px;
+  }
+  .leftabout h1{
+    margin-left:5px; 
+    font-size: 20px;
+    line-height: 50px;
+    font-stretch: expanded;
   }
 
 }
